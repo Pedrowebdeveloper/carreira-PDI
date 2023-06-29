@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acessibilidade</title>
+</head>
+<style>
+    div:focus,
+    p:focus {
+        font-weight: bold;
+    }
+    a {
+
+    }
+</style>
+<body>
+
+    <h1>tab-index</h1>
+    <p tabindex="1">item com tab index!</p>
+    <div tabindex="-1">item com tab index!</div>
+    <div tabindex="2">item com tab index!</div>
+    <div tabindex="3">item com tab index!</div>
+    <div tabindex="4">item com tab index!</div>
+    <div tabindex="-1">item com tab index!</div>
+    <div tabindex="6">item com tab index!</div>
+    <div tabindex="7">item com tab index!</div>
+    <h1>role</h1>
+    <a href="#" role="button">exemplo</a>
+</body>
+</html>
