@@ -1,0 +1,14 @@
+$color: blue;
+$primaryColor: red;
+body {
+  background-color : $color;
+}
+
+.hero {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    color:$primaryColor;
+    background-color: aqua;
+}
